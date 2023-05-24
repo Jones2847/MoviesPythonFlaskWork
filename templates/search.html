@@ -1,0 +1,15 @@
+<html>
+
+
+{% for num in range(0, 5) %}
+<img src="https://image.tmdb.org/t/p/w500/{{results[num][0]['poster_path']}}" alt="{{results}}" width="200" height="300">
+<div >{{results[num][0]['title']}}</div>
+  {% endfor %}
+<!--
+<div>{{results[0]}}</div>
+<div>{{results[1]}}</div>
+<div>{{results[2]}}</div>
+<div>{{results[3]}}</div>
+<div>{{results[4]}}</div>-->
+</html>
+
